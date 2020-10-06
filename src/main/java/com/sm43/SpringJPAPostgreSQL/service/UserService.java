@@ -12,19 +12,19 @@ public class UserService {
     UserRepository userRepository;
 
     public void addUser(String name, String city) {
-        User u = new User(name, city);
-        userRepository.save(u);
+        User usr = new User(name, city);
+        userRepository.save(usr);
     }
 
     public void addUsers() {
-        User u1 = new User("Abc", "Mumbai");
-        userRepository.save(u1);
+        User usr1 = new User("UserName1", "Mumbai");
+        userRepository.save(usr1);
 
-        User u2 = new User("Def", "Bangalore");
-        userRepository.save(u2);
+        User usr2 = new User("UserName2", "Bangalore");
+        userRepository.save(usr2);
 
-        User u3 = new User("Xyz", "Pune");
-        userRepository.save(u3);
+        User usr3 = new User("UserName3", "Pune");
+        userRepository.save(usr3);
     }
 
     public String getUsers() {
