@@ -1,6 +1,6 @@
-# Spring-App
+# Spring App
 
-Run the Microservice locally -  
+To Run the Microservice locally -  
 
 Prerequisites
 - Maven
