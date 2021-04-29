@@ -28,7 +28,7 @@ public class UserService {
     }
 
     public String getUsers() {
-        String result = "<h2> Pipeline Trigger Update Again Updated Live- <h2><br>";
+        String result = "<h2> Pipeline Trigger Test <h2><br>";
         for (User user : userRepository.findAll()) {
             result += "<h3>" + user.toString() +"</h3>" + "<br>";
         }
