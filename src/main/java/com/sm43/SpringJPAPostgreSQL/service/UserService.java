@@ -28,7 +28,7 @@ public class UserService {
     }
 
     public String getUsers() {
-        String result = "<h2> Reset - Users <h2><br>";
+        String result = "<h2> All Users <h2><br>";
         for (User user : userRepository.findAll()) {
             result += "<h3>" + user.toString() +"</h3>" + "<br>";
         }
